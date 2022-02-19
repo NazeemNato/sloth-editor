@@ -1,0 +1,21 @@
+{
+  "name": "sloth",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@lezer/generator": "^0.15.4",
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.19.1",
+    "@codemirror/highlight": "^0.19.7",
+    "@codemirror/language": "^0.19.7",
+    "@codemirror/view": "^0.19.44",
+    "@lezer/lr": "^0.15.8"
+  }
+}

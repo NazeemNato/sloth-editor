@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.right-output-panel {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-basis: calc(50% - 3px);
+}
+
+.view-label {
+  padding: 8px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  white-space: normal;
+  color: rgb(144, 144, 144);
+}
+.console-output {
+  white-space: pre !important;
+  flex: 1 1 1e-9px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 200px;
+  overflow: auto;
+  padding: 8px 24px;
+}
