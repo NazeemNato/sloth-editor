@@ -29,18 +29,38 @@
           <div class="row">
             <div class="col-12 right-output-panel">
               <span class="view-label">console</span>
-              <p id="console-output" class="console-output"></p>
+              <pre id="console-output" class="console-output"></pre>
             </div>
             <hr />
-            <div class="col-12 right-output-panel">
+            <div class="col-12">
               <span class="view-label">Other</span>
               <p>
-                Sloth is a simple interpeter written in Golang and compiled to
+                <i>
+                  Sloth is a simple interpeter written in Golang and compiled to
                 WASM for the browser.
+                </i>
+              </p>
+              <p><code>var </code> is used to declare variables.</p>
+              <p><code>fun </code> is used to declare functions.</p>
+              <p>
+                <code>return </code> is used to return a value from a function.
               </p>
               <p>
-                Currently no docs avilable please visit
-                <a href="https://github.com/nazeemnato/sloth">sloth github</a>.
+                <code> if / else </code> is used to check if a condition is true
+                or false.
+              </p>
+              <p>
+                <code>concat</code> is used to concatenate strings.
+              </p>
+              <p>
+                <code>len</code> is used to get the length of a string.
+              </p>
+              <p>
+                <code>print</code> is used to print a string to the console.
+              </p>
+              <p>
+                supported operators:
+                <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code> 
               </p>
             </div>
           </div>
@@ -48,7 +68,7 @@
       </div>
     </div>
 
-    <script src="/wasm_exec.js"></script>
+    <script type="module" src="/wasm_exec.js"></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

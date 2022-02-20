@@ -17,14 +17,13 @@ body {
 .view-label {
   padding: 8px;
   font-family: Roboto, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   white-space: normal;
   color: rgb(144, 144, 144);
 }
 .console-output {
   white-space: pre !important;
   flex: 1 1 1e-9px;
-  font-family: "Roboto Mono", monospace;
   font-size: 14px;
   line-height: 20px;
   min-height: 200px;

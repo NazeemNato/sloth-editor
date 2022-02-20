@@ -48,7 +48,11 @@
 				outputBuf += decoder.decode(buf);
 				const nl = outputBuf.lastIndexOf("\n");
 				if (nl != -1) {
-					console.log(outputBuf.substr(0, nl));
+					const output = document.getElementById("console-output");
+					const text = document.createTextNode(outputBuf.substr(0, nl));
+					const br = document.createElement("br");
+					output.appendChild(text);
+					output.appendChild(br);
 					outputBuf = outputBuf.substr(nl + 1);
 				}
 				return buf.length;
